@@ -72,9 +72,16 @@
       }
 
       window.addEventListener('keydown', playSound);
-      
+
       const keys = document.querySelectorAll('.key');
       keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+
+      // To Play with mouse
+      keys.forEach(key => key.addEventListener('click', function(e) {
+        const val = key.getAttribute('data-key');
+        var jeremy = {keyCode : val};
+        playSound(jeremy);
+      }));
     </script>
 
   </body>
