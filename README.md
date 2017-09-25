@@ -6,8 +6,60 @@
 
 ![Drum Kit Image](https://github.com/ankushgarg1998/Javascript-MiniProjects/blob/master/Drum%20Kit/Screen.png "Drum")
 
+#### HTML
+```html
+data-* attribute
+<div data-key="x">
+<audio data-key="x" src=""></audio>
+```
+
+#### CSS
+```CSS
+{
+align-items: center;
+justify-content: center;
+transition: all 0.5s ease;
+text-shadow: 0 0 0.5rem black;
+}
+
+.playing {
+  transform: scale(1.5);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+```
+#### JS
+```javascript
+audio.currentTime = 0;
+audio.play();
+key.classList.add('playing');
+window.addEventListener('keydown', function);
+forEach loop
+```
 
 ## CSS Clock 🕐
 :clock3: [Try it !](https://ankushgarg1998.github.io/Javascript-MiniProjects/Clock/)
 
 ![Clock Image](https://github.com/ankushgarg1998/Javascript-MiniProjects/blob/master/Clock/Screen.png "Clock")
+
+#### CSS
+```CSS
+{
+transform-origin: 100%;
+transform: translateY(-3px);
+transform: rotate(90deg);
+transition: all 0.5s;
+transition-timing-function: cubic-bezier();
+}
+```
+
+#### JS
+```javascript
+- Date()
+  - getSeconds()
+  - getMinutes()
+  - getHours()
+
+- [element].style.transform = 'rotate(20deg)';
+- setInterval(function, miliseconds)
+```
