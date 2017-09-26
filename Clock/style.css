@@ -43,5 +43,18 @@ body {
   transform: rotate(90deg);
   transition: all 0.5s;
   transition-timing-function: cubic-bezier(0, 2.82, 0.58, 1);
+}
 
+.hour-hand {
+  width: 30%;
+  margin-left: 20%;
+  height: 7px;
+}
+
+.min-hand {
+  height: 7px;
+}
+
+.sec-hand {
+  height: 4px;
 }
