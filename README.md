@@ -63,3 +63,8 @@ transition-timing-function: cubic-bezier();
 - [element].style.transform = 'rotate(20deg)';
 - setInterval(function, miliseconds)
 ```
+
+## CSS Variables Updating with JS
+📓 [Try it !](https://ankushgarg1998.github.io/Javascript-MiniProjects/CSS%20Variables/)
+
+![CSS Variables](https://github.com/ankushgarg1998/Javascript-MiniProjects/blob/master/CSS%20Variables/Screen.png "CSS Variables")
