@@ -90,3 +90,5 @@ document.documentElement.style.setProperty(`--blur`, 20px);
 - reduce()
 
 ## Flex Panels
+
+## Type Ahead
