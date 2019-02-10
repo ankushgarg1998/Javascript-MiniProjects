@@ -68,3 +68,25 @@ transition-timing-function: cubic-bezier();
 📓 [Try it !](https://ankushgarg1998.github.io/Javascript-MiniProjects/CSS%20Variables/)
 
 ![CSS Variables](https://github.com/ankushgarg1998/Javascript-MiniProjects/blob/master/CSS%20Variables/Screen.png "CSS Variables")
+
+- The difference between Sass variables and CSS variables is that Sass variables cannot be changed once compiled. But CSS Variables can be dynamically updated.
+
+#### CSS
+```CSS
+:root {
+  --blur: 10px;
+}
+```
+
+#### JS
+```javascript
+document.documentElement.style.setProperty(`--blur`, 20px);
+```
+
+## Array Cardio
+- filter()
+- map()
+- sort()
+- reduce()
+
+## Flex Panels
